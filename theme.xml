@@ -1,0 +1,78 @@
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>4</formatVersion>
+
+<feature supported="carousel">
+<view name="system">
+<carousel name="systemcarousel">
+<type>horizontal</type>
+<pos>.06 0.05</pos>
+<size>0.93 0.790</size>
+<logoScale>1.3</logoScale>
+<logoSize>0.3 0.5</logoSize>
+<color>00000000</color>
+<maxLogoCount>3</maxLogoCount>      
+</carousel>
+<text name="systemInfo">
+<pos>0.35 0.78</pos>
+<backgroundColor>00000000</backgroundColor>
+<color>FFFFFF</color>
+<fontPath>./_inc/OpenSans-Bold.ttf</fontPath>
+<fontSize>0.02</fontSize>
+</text>
+</view>
+</feature>
+
+
+ <view name="system">
+      <helpsystem name="help">
+      <fontPath>./_inc/Roboto-Medium.ttf</fontPath>
+          <fontSize>0.0200</fontSize>      
+         <pos>0.01 0.02</pos> 
+         <textColor>FFFFFF</textColor>
+         <iconColor>FFFFFF</iconColor>
+      </helpsystem>
+   </view>
+   
+
+<view name="system">
+<image name="background" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./_inc/fondo3.png</path>
+</image>
+</view>
+<view name="detailed">
+<image name="frame" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./_inc/fondo2.png</path>
+</image>
+</view>
+<view name="video">
+<image name="crt" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./_inc/fondo2.png</path>
+</image>
+</view>
+<view name="basic,grid">
+<image name="frame" extra="true">
+<origin>0 0</origin>
+<pos>0 0</pos>
+<size>1 1</size>
+<path>./_inc/fondo3.png</path>
+</image>
+</view>
+   
+
+
+
+
+   
+</theme>
